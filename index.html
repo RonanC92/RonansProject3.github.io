@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project 3 - Data Visualization</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+				
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Data Visualization<br />
+						</h1>
+						<p> </a></p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+				<header id="header">
+					<a href="https://ronanc92.github.io/RonansPortfolio.github.io/" class="logo">Home</a>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li><a href="https://ronanc92.github.io/RonansPortfolio.github.io/">Home</a></li>
+						<li><a href="https://ronanc92.github.io/RonansFeaturedProject.github.io/">Featured Project</a></li>
+						<li><a href="https://ronanc92.github.io/RonanC92-RonansProject1.github.io/">Data Cleaning</a></li>
+						<li><a href="https://ronanc92.github.io/RonansProject2.github.io/">Data Analysis</a></li>
+						<li class="active"><a href="https://ronanc92.github.io/RonansProject3.github.io/">Data Visualization</a></li>
+
+					</ul>
+
+				
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/ronan-costello-830063b3/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/RonanC92" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Project Post -->
+						
+							<article class="Data Visualization">
+								<header class="major">
+									<div align="left">
+										<span class="image fit"><img src="images/data_visualization.jpg" alt="" /></span>	
+									<h3 id="Introduction"><span id="introduction">Introduction</span></h3>
+									<p> In this project I will be going through the analysis of the 'London Bikie Sharing' dataset found on Kaggle. 
+										I will be primarily focusing on the data analysis and visualization phase and how we can use Tableau to gain better analysis and visualization to present to our stakeholders.</p>
+										
+										<h3 id="Statement of business task"><span id="Statement of business task">Statement of business task</span></h3>
+										<p> A great way to help get your analysis across to stakeholders and to help build on the relationships is to be 
+											able to help visualize their data representing them as charts when presenting it to them. Interactive dashboards are also extremely 
+											useful as it allows them to also filter their data to give them more insight to their product. Using the Data set ‘London bike sharing’ 
+											I will be able to guide you how to create visuals and dashboard. I will create 4 different charts and 1 dashboard using Tableau and how you can use 
+											filtering and other different techniques to showcase the power of this software.   </p>
+											<h3 id="Preparing the data"><span id="Preparing the data">Preparing the data</span></h3>
+											<p> 
+												<ul>
+												<li> London Bike Sharing, by Hristo Mavrodiev on Kaggle.  <a href="https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset">here.</a></li> 
+												<li> Open Government Licence – Meaning it is up to you to regularly review the licence. </li>
+												<li> Contains hourly timestamp data on London bike shares over 2 years between the dates 04/01/2015 – 03/01/2017. It is organized in long format and gives information on its Metadata: <p></p>
+													<p>"timestamp" - timestamp field for grouping the data. </p>
+													<p>"cnt" - the count of a new bike shares </p>
+													<p>"t1" - real temperature in C </p>
+													<p>"t2" - temperature in C "feels like”. </p>
+													<p>"hum" - humidity in percentage </p>
+													<p>"wind_speed" - wind speed in km/h </p>
+													<p>"weather_code" - category of the weather </p>
+													<p>"is_holiday" - boolean field - 1 holiday / 0 non holiday</p> 
+													<p>"is_weekend" - boolean field - 1 if the day is weekend </p>
+													<p>"season" - category field meteorological seasons: 0-spring; 1-summer; 2-fall; 3-winter. </p>
+													<p>"weather_code" category description: 
+													1 = Clear; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity; 2 = scattered clouds / few clouds; 3 = Broken clouds; 4 = Cloudy; 7 = Rain/ light Rain shower/ Light rain; 10 = rain with thunderstorm; 26 = snowfall; 94 = Freezing Fog </p>
+												<li>Dataset has only 1 file in CSV format organized in long format. </li>
+													</li>
+											</ul>
+											</p>	
+											
+											<h3 id="ROCCC Analysis"><span id="ROCCC Analysis">ROCCC Analysis </span></h3>
+											<p> 
+												<ul>
+												<li> Reliability : <strong>High</strong> – dataset was collected from hourly timestamps of the count of new bike shares that spans over 2 years. </li>
+												<li> Originality : <strong>Low</strong> – third party data collected from Https://cycling.data.tfl.gov.uk/ meaning the originality is low. </li>
+												<li> Comprehensive : <strong>Medium</strong> – Contains 1 dataset using only 10 columns but over 17,000 rows. </li>
+											    <li> Current : <strong>Low</strong> – data is 6 years old meaning the data measures could be drastically different with more up to date data. </li>
+												<li> Cited : <strong>HIGH</strong> – data collector and source is well documented.</li>
+											</ul>
+											</p>
+                                            <h3 id="Data Selection"><span id="Data Selection">Data Selection</span></h3>
+									<p> Focus is on the objectives listed in the Data Analysis section to analyze and produce visualizations and a dashboard with the available data. The dataset file name is listed as: 
+									<li> London_merged.csv  </li>
+									</p>
+									
+									<h3 id="Processing the Data"><span id="Processing the Data">Processing the Data</span></h3>
+									<p> I will be using Excel, Big Query and Tableau for this project. I am using Excel to clean the data set, Big Query for the analysis by creating SQL statements and I will be using tableau to create the visualizations which is the focus of this project.  </p>
+									
+									<h3 id="Data Cleaning"><span id="Data Cleaning">Data Cleaning</span></h3>
+									 Below is a step by step guide for the data cleaning process: 
+										<ul>
+										<li> First, I download the dataset provided on the Kaggle page unzip the files and I store it in a folder titled ‘London_merged’. </li>
+										<li> I open both csv files into Microsoft excel and look through the data that has been provided to me scanning for any errors, blank fields or duplicates particularly on columns that I need for my analysis. </li>
+										<li> I am satisfied that the data set is clean and almost ready to use. Two things I have changed is the timestamp tab where I have split the date and time into separate columns and created a column of a unique ID for every row. Otherwise, the dataset is ready to be analysed. </li>
+										<p></p>
+									
+									<h3 id="Data Integrity"><span id="Data Integrity">Data Integrity</span></h3>
+									<p> Once I am happy with that the data is cleaned, I move it then on into Big Query for analysis. I want to check the number if unique Ids in the table to validate the integrity and I can do this by writing the following query:   
+										<span class="image fit"><img src="images/SQL1.jpg" alt="" /></span>					
+										The result shows the dataset is consistent as we expected 17414 UniqueID from the table and gives us the certainty of a high level of integrity when analysing the data. </p>
+										
+									<h3 id="Data Analysis"><span id="Data Analysis">Data Analysis</span></h3>
+									<p> For SQL querying I need to first Identify the Problems that I am trying to Analyse.  
+									<li>How does weather affect bike usage?</li> 
+									<li>What’s the total bike rides between specific periods? </li> <p></p>
+									<p><strong> Answer: How does weather affect bike usage? <span class="image fit"><img src="images/SQL2.jpg" alt="" /></span></strong>					 
+									In my table the weather code is classed by numbers to make it more legible I reference each code to the legend provided in the Kaggle page and using the WHEN and THEN clause in big query e.g. weather code 1 – Clear. I then group it by the weather code and in descending order I can conclude that almost 36% of the bike usage was during clear weather and as the weather gets progressively worse the bike usage falls.  </p> 
+									<p><strong> Answer: What’s the total bike rides between specific periods? 
+										<li>Total bike rides by month: </li><span class="image fit"><img src="images/SQL3.jpg" alt="" /></span></strong>
+										<strong><li>Total bike rides by week: </li><span class="image fit"><img src="images/SQL4.jpg" alt="" /></span></strong>			 
+										To understand the total bike rides during a specific period I needed to split the date timeframe into months in one column and year into another. After that I was able to Sum the total amount of bike rides by month and conclude that during the months of June, July and August had the busiest time frame for bike shares. </p>
+									
+									<h3 id="Data Visualization"><span id="Data Visualization">Data Visualization</span></h3>
+									<p> To create visualizations and a dashboard I used Tableau and a copy of the main excel sheet that where I updated some of the columns from their integer cells to their retrospective texts e.g Weather condition 1 = Clear, 2 = Scattered clouds etc. 
+										By using Tableau and the data I had access to I was able to create the following visuals below: 
+										
+										<p>I first started out by creating a line chart that represented the total bike rides per month. To do this I placed the timestamp data in the columns section and the sum of the total bike rides in the rows section. For all my visuals I use an Orange to Blue colour divergence to represent the bike usage where Orange is the lower band usage of bike rides and Blue being the higher band usage of bike ride.  
+										<span class="image fit"><img src="images/Tableau_1.png" alt="" /></span>
+										  
+										Next, I created a bar chart to show the total bike rides per season. To do this I grouped the Timestamp and the seasons into the columns section and again using the total rides as the rows. 
+										<span class="image fit"><img src="images/Tableau_2.png" alt="" /></span>  
+										
+										After that the next visual I created was another bar chart and here I wanted to display the total bike rides by weather condition to show how the weather conditions effected the usage of the bikes. 
+										<span class="image fit"><img src="images/Tableau_3.png" alt="" /></span>
+			  
+										I then created a heatmap of the months vs weather condition using the total bike rides. Again, using the Orange to Blue colour divergence, I am able to use the orange to represent the low usage scale and the blue to represent the higher usage scale.  
+										<span class="image fit"><img src="images/Tableau_4_Heatmap.png" alt="" /></span>
+										  
+										After has was happy with the number of visuals I had created I then grouped them altogether and created an interactive. I would be able to use this to present to my stakeholder’s dashboard so that I could present this to them as a more dynamic and user-friendly way. I could also use the dashboard to for insights into the data and drive data driven decision making.  
+									<strong><li>Filtered by one Month: </li>
+										<span class="image fit"><img src="images/Tableau_6_Dashbored_1_Month.png" alt="" /></span>
+									<li>Filtered by all months:</li>  
+										<span class="image fit"><img src="images/Tableau_6_Dashbored_All_Month.png" alt="" /></span>
+										</p></strong>
+								
+								
+									<h3 id="Conclusion"><span id="Conclusion">Conclusion</span></h3>
+									<p> In Conclusion I able to effectively analyse and provide visualizations by using Tableau from the data provided to me and answering the objectives I had laid out.
+										Now that I have come up with effective dashboard, I will now be able to showcase this to potential stakeholders.
+									</p>
+								
+								</header>
+
+								
+								<ul class="actions special">
+								</ul>
+							</article>
+						
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="https://ronanc92.github.io/RonansProject2.github.io/" class="previous">back</a>
+									<a href="https://ronanc92.github.io/RonansFeaturedProject.github.io/" class="page">1</a>
+									<a href="https://ronanc92.github.io/RonanC92-RonansProject1.github.io/" class="page">2</a>
+									<a href="https://ronanc92.github.io/RonansProject2.github.io/" class="page">3</a>
+									<a href="https://ronanc92.github.io/RonansProject3.github.io/" class="page active">4</a>
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Data Visualization</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
